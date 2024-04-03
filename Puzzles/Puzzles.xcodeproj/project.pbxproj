@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D22C1492BBA9DCA00DFF70B /* SquareStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22C1482BBA9DCA00DFF70B /* SquareStackView.swift */; };
+		4D22C14B2BBA9FC900DFF70B /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22C14A2BBA9FC900DFF70B /* ImageView.swift */; };
+		4D22C14E2BBAA2B400DFF70B /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22C14D2BBAA2B400DFF70B /* Resources.swift */; };
+		4D22C1522BBBF5C400DFF70B /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22C1512BBBF5C400DFF70B /* GameOverView.swift */; };
 		4D70344C2BB5892900290172 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D70344B2BB5892900290172 /* AppDelegate.swift */; };
 		4D70344E2BB5892900290172 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D70344D2BB5892900290172 /* SceneDelegate.swift */; };
 		4D7034502BB5892900290172 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D70344F2BB5892900290172 /* ViewController.swift */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D22C1482BBA9DCA00DFF70B /* SquareStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareStackView.swift; sourceTree = "<group>"; };
+		4D22C14A2BBA9FC900DFF70B /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		4D22C14D2BBAA2B400DFF70B /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		4D22C1512BBBF5C400DFF70B /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 		4D7034482BB5892900290172 /* Puzzles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puzzles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D70344B2BB5892900290172 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D70344D2BB5892900290172 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +90,9 @@
 		4D7034612BB58A0400290172 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4D22C1482BBA9DCA00DFF70B /* SquareStackView.swift */,
+				4D22C14A2BBA9FC900DFF70B /* ImageView.swift */,
+				4D22C1512BBBF5C400DFF70B /* GameOverView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -100,6 +111,7 @@
 				4D7034542BB5892D00290172 /* Assets.xcassets */,
 				4D7034562BB5892D00290172 /* LaunchScreen.storyboard */,
 				4D7034592BB5892D00290172 /* Info.plist */,
+				4D22C14D2BBAA2B400DFF70B /* Resources.swift */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -174,9 +186,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D22C1522BBBF5C400DFF70B /* GameOverView.swift in Sources */,
+				4D22C14B2BBA9FC900DFF70B /* ImageView.swift in Sources */,
+				4D22C14E2BBAA2B400DFF70B /* Resources.swift in Sources */,
 				4D7034502BB5892900290172 /* ViewController.swift in Sources */,
 				4D70344C2BB5892900290172 /* AppDelegate.swift in Sources */,
 				4D70344E2BB5892900290172 /* SceneDelegate.swift in Sources */,
+				4D22C1492BBA9DCA00DFF70B /* SquareStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
